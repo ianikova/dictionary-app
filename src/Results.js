@@ -1,11 +1,12 @@
 import React from "react";
+import Title from "./Title";
 import Meaning from "./Meaning";
 
 export default function Results(props) {
   if (props.results) {
     return (
       <div className="Results">
-        <h2>{props.results.word}</h2>
+        <Title results={results} />
         {props.results.meanings.map(function (meaning, index) {
           return (
             <div key={index}>
