@@ -2,13 +2,45 @@
   margin: 30px 0;
 }
 
-.App-logo {
-  max-width: 80px;
-  display: block;
-  margin: 0 auto;
+body {
+  background: #edc7b7;
 }
 
-.App-footer {
+.App header {
+  padding: 20px;
   text-align: center;
-  margin: 30px o;
+}
+.App .App-logo {
+  position: relative;
+  width: 80px;
+}
+
+.App header h1 {
+  font-size: 50px;
+  font-weight: 200;
+  display: inline;
+  margin: 0 20px;
+}
+
+a {
+  color: #123c69;
+}
+
+.App .Container {
+  padding: 40px 30px;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.App footer {
+  font-size: 10px;
+  margin-top: 10px;
+}
+.App footer a {
+  color: #d76463;
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+}
+.App footer a:hover {
+  color: #eb7c7c;
 }

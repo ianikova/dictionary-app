@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faVolumeLow } from "@fortawesome/free-solid-svg-icons";
+import { faHeadphones } from "@fortawesome/free-solid-svg-icons";
 import "./Title.css";
 
 export default function Title(props) {
@@ -12,16 +12,12 @@ export default function Title(props) {
 
   if (phonetic) {
     return (
-      <div className="wrapper">
+      <div className="TitleResults">
+        <h2>{props.results.word}</h2>
         <button className="sound-icon" disabled={!phonetic} onClick={playAudio}>
-          <FontAwesomeIcon icon={faVolumeLow} />
+          <FontAwesomeIcon icon={faHeadphones} />
         </button>
-        <div className="text-wrapper">
-          <div className="word">{props.results.word}</div>
-          <div className="phonetics">
-            <span className="phonetics-text">{phonetic.text}</span>
-          </div>
-        </div>
+        <h3>{phonetic.text}</h3>
       </div>
     );
   } else {

@@ -1,1 +1,36 @@
+a {
+  color: #123c69;
+}
 
+.dictionary {
+  margin: 140px;
+}
+
+.section {
+  background: #eee2dc;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  margin: 20px auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  opacity: 0.8;
+}
+
+.input {
+  font-size: 12px;
+}
+.button {
+  font-size: 12px;
+}
+
+.hint {
+  font-size: 12px;
+  font-style: italic;
+  margin-bottom: 30px;
+}
