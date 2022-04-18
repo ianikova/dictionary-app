@@ -6,7 +6,7 @@ a {
   margin: 140px;
 }
 
-.section {
+section {
   background: #eee2dc;
   border-radius: 10px;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
@@ -32,5 +32,4 @@ h1 {
 .hint {
   font-size: 12px;
   font-style: italic;
-  margin-bottom: 30px;
 }

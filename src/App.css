@@ -1,18 +1,16 @@
-.App-header {
-  margin: 30px 0;
+.App .Container {
+  padding: 40px 30px;
+  margin: 0 auto;
+  max-width: 900px;
 }
 
-body {
-  background: #edc7b7;
+.App {
+  font-family: Poppins, sans-serif;
 }
 
 .App header {
   padding: 20px;
   text-align: center;
-}
-.App .App-logo {
-  position: relative;
-  width: 80px;
 }
 
 .App header h1 {

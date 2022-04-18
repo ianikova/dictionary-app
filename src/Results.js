@@ -6,16 +6,16 @@ export default function Results(props) {
   if (props.results) {
     return (
       <div className="Results">
-        <section>
-          <Title results={props.results} />
-          {props.results.meanings.map(function (meaning, index) {
-            return (
-              <section key={index}>
+        <Title results={props.results} />
+        {props.results.meanings.map(function (meaning, index) {
+          return (
+            <div key={index}>
+              <section>
                 <Meaning meaning={meaning} />
               </section>
-            );
-          })}
-        </section>
+            </div>
+          );
+        })}
       </div>
     );
   } else {

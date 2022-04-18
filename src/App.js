@@ -1,20 +1,24 @@
 import "./App.css";
-import logo from "./logo.png";
 import Dictionary from "./Dictionary";
 
 export default function App() {
+  const randomWord = "Wanderlust";
+
   return (
     <div className="App">
-      <div className="container">
+      <div className="Container">
         <header className="App-header">
-          <h1>Dictionary</h1>
-          <img src={logo} className="App-logo img-fluid" alt="logo" />
+          <h1>Dictionary 📖</h1>
         </header>
         <main>
-          <Dictionary defaultWord="wanderlust" />
+          <Dictionary default={randomWord} />
         </main>
         <footer className="App-footer">
-          <a href="" target="_blank" rel="noreferrer">
+          <a
+            href="https://github.com/ianikova/dictionary-app"
+            target="_blank"
+            rel="noreferrer"
+          >
             Open-source code
           </a>{" "}
           by Anna Ianikova

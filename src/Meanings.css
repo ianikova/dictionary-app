@@ -1,0 +1,22 @@
+.Meanings h4 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.Meanings .Definition {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.Meanings .Example {
+  font-size: 12px;
+  font-style: italic;
+  opacity: 0.7;
+  margin: 10px 0 5px;
+}
+
+.Meanings hr {
+  margin: 15px;
+  opacity: 0.1;
+  width: 55%;
+}
